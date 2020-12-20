@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CommonCore\CommonCore.Interfaces\CommonCore.Interfaces.csproj" />
+    <ProjectReference Include="..\..\CommonCore\CommonCore.Standard\CommonCore.Standard.csproj" />
+    <ProjectReference Include="..\AlignNamespacesExtension.Interfaces\AlignNamespacesExtension.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

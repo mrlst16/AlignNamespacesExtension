@@ -1,0 +1,9 @@
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesEtension.Tests\bin\Debug\netcoreapp3.1\AlignNamespacesEtension.Tests.deps.json
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesEtension.Tests\bin\Debug\netcoreapp3.1\AlignNamespacesEtension.Tests.dll
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesEtension.Tests\bin\Debug\netcoreapp3.1\AlignNamespacesEtension.Tests.pdb
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesEtension.Tests\obj\Debug\netcoreapp3.1\AlignNamespacesEtension.Tests.csprojAssemblyReference.cache
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesEtension.Tests\obj\Debug\netcoreapp3.1\AlignNamespacesEtension.Tests.AssemblyInfoInputs.cache
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesEtension.Tests\obj\Debug\netcoreapp3.1\AlignNamespacesEtension.Tests.AssemblyInfo.cs
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesEtension.Tests\obj\Debug\netcoreapp3.1\AlignNamespacesEtension.Tests.csproj.CoreCompileInputs.cache
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesEtension.Tests\obj\Debug\netcoreapp3.1\AlignNamespacesEtension.Tests.dll
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesEtension.Tests\obj\Debug\netcoreapp3.1\AlignNamespacesEtension.Tests.pdb

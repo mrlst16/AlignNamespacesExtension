@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hUILkb2TsEgJZWTf7nAu5h6+ngc2wXpcY8+VaG5e2jOiA0oXZ9LoMjjztGWqDeXTKw7qJIuQCJ3sJvY2OHW2Fw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mattl\\source\\repos\\AlignNamespacesExtension\\AlignNamespacesExtension.Interfaces\\AlignNamespacesExtension.Interfaces.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mattl\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\mattl\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

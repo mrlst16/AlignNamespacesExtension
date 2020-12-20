@@ -1,0 +1,16 @@
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.Interfaces\bin\Debug\netstandard2.0\AlignNamespacesExtension.Interfaces.deps.json
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.Interfaces\bin\Debug\netstandard2.0\AlignNamespacesExtension.Interfaces.dll
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.Interfaces\bin\Debug\netstandard2.0\AlignNamespacesExtension.Interfaces.pdb
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.Interfaces\bin\Debug\netstandard2.0\AlignNamespacesExtension.Models.dll
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.Interfaces\bin\Debug\netstandard2.0\CommonCore.Interfaces.dll
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.Interfaces\bin\Debug\netstandard2.0\CommonCore.Models.dll
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.Interfaces\bin\Debug\netstandard2.0\CommonCore.Interfaces.pdb
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.Interfaces\bin\Debug\netstandard2.0\AlignNamespacesExtension.Models.pdb
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.Interfaces\bin\Debug\netstandard2.0\CommonCore.Models.pdb
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.Interfaces\obj\Debug\netstandard2.0\AlignNamespacesExtension.Interfaces.csprojAssemblyReference.cache
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.Interfaces\obj\Debug\netstandard2.0\AlignNamespacesExtension.Interfaces.AssemblyInfoInputs.cache
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.Interfaces\obj\Debug\netstandard2.0\AlignNamespacesExtension.Interfaces.AssemblyInfo.cs
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.Interfaces\obj\Debug\netstandard2.0\AlignNamespacesExtension.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.Interfaces\obj\Debug\netstandard2.0\AlignNamespacesExtension.Interfaces.csproj.CopyComplete
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.Interfaces\obj\Debug\netstandard2.0\AlignNamespacesExtension.Interfaces.dll
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.Interfaces\obj\Debug\netstandard2.0\AlignNamespacesExtension.Interfaces.pdb

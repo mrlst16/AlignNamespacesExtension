@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="list_research" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/list_research" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/list_research" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="encyclopedia.cpp" />
+		<Unit filename="encyclopedia.h" />
+		<Unit filename="memoryChecked.cpp" />
+		<Unit filename="memoryChecked.h" />
+		<Unit filename="nosuchplan.h" />
+		<Unit filename="permittedResearch.cpp" />
+		<Unit filename="researchplan.cpp" />
+		<Unit filename="researchplan.h" />
+		<Unit filename="testEncyclopedia.cpp" />
+		<Unit filename="testResearchPlan.cpp" />
+		<Unit filename="topic.cpp" />
+		<Unit filename="topic.h" />
+		<Unit filename="unittest.cpp" />
+		<Unit filename="unittest.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

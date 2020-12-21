@@ -1,0 +1,4 @@
+﻿  unittest.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\include\ostream(744,1): error C2451: conditional expression of type 'CppUnitLite::NotMatcher<std::basic_ostream<char,std::char_traits<char>>::sentry>' is illegal
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\include\ostream(744,9): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\mattl\source\repos\ConsoleApplication1\ConsoleApplication1\unittest.cpp(81): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)' being compiled

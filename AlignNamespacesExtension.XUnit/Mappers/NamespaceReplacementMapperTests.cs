@@ -22,7 +22,7 @@ namespace AlignNamespacesExtension.XUnit.Mappers
             var filename = "someFileName";
             var newNamespace = "Lab.Replacement";
 
-            var match = CommonCore.Standard.CommonRegex.NamespaceRegex.Match(data);
+            var match = CommonCore.Standard.CommonRegex.NamespaceRegex().Match(data);
 
             var result = await _mapper.Map(match, filename, newNamespace);
 

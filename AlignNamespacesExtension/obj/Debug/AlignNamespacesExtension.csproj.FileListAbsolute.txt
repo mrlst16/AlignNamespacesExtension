@@ -47,3 +47,4 @@ C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\bi
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\bin\Debug\System.Text.Encodings.Web.xml
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\obj\Debug\_EmptyResource.resources.original

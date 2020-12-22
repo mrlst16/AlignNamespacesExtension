@@ -190,8 +190,7 @@ namespace AlignNamespacesExtension
             var mapper = new NamespaceReplacementMapper();
             var namespaceReplacementLoader = new NamespaceReplacementLoader(mapper);
             FileLoader fileLoader = new FileLoader();
-            var loader = new AlignNamespacesLoader(namespaceReplacementLoader, fileLoader);
-            var service = new AlignNamespacesService(loader);
+            var service = new AlignNamespacesService(namespaceReplacementLoader, fileLoader);
 
             Instance = new AlignNamespacesCommand(package, commandService, service);
         }

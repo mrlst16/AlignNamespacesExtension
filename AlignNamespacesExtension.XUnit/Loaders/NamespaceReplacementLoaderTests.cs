@@ -3,6 +3,7 @@ using AlignNamespacesExtension.Models.DTO.NamespaceAlignment;
 using AlignNamespacesExtension.Models.DTO.Requests;
 using CommonCore.Interfaces.Utilities;
 using NSubstitute;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Xunit;
@@ -51,7 +52,30 @@ namespace AlignNamespacesExtension.XUnit.Loaders
                 Text = data
             });
 
-            //var count = result.MatchesCount
         }
+
+        [Fact]
+        public async Task ReplaceUsing()
+        {
+            var data = "using namespace Lab.Goodies ;" + System.Environment.NewLine + "using namespace Lab.Sweets; namespace Lab.Goodies.Balls{}";
+
+            var result = await _loader.ReplaceUsings(new ReplaceUsingsRequest()
+            {
+                Text = data,
+                Replacements = new List<NamespaceReplacement>()
+                {
+                    new NamespaceReplacement(){
+                        OriginalNamespace = "Lab.Goodies",
+                        NewNamespace = "Lab.Donkeys"
+                    },
+                    new NamespaceReplacement(){
+                        OriginalNamespace = "Lab.Sweets",
+                        NewNamespace = "Lab.Donkeys2"
+                    }
+                }
+            });
+            Assert.Equal("using namespace Lab.Donkeys;" + System.Environment.NewLine + "using namespace Lab.Donkeys2; namespace Lab.Goodies.Balls{}", result.Data);
+        }
+
     }
 }

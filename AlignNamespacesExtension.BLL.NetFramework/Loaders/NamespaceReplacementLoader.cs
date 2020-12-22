@@ -8,6 +8,7 @@ using AlignNamespacesExtension.Models.DTO.NamespaceAlignment;
 using AlignNamespacesExtension.Models.DTO.Requests;
 using AlignNamespacesExtension.Models.DTO.Responses;
 using CommonCore.Interfaces.Utilities;
+using CommonCore.Models.Responses;
 using CommonCore.Standard;
 using CommonCore.Standard.Extensions;
 
@@ -30,11 +31,11 @@ namespace AlignNamespacesExtension.BLL.Loaders
             var replacements = new List<NamespaceReplacement>();
 
             var result = request.Text;
-            Regex namespaceRegex = CommonRegex.NamespaceRegex;
+            Regex namespaceRegex = CommonRegex.NamespaceRegex();
 
             Match match = null;
             int startNext = 0;
-            var replacementString = " namespace "
+            var replacementString = "namespace "
                     + request.NewNamespace
                     + System.Environment.NewLine
                     + "{";
@@ -62,5 +63,27 @@ namespace AlignNamespacesExtension.BLL.Loaders
                 Sucess = true
             };
         }
+
+        public async Task<MethodResponse<string>> ReplaceUsings(ReplaceUsingsRequest request)
+        {
+            var text = request.Text;
+            bool anyReplaced = false;
+            foreach (var item in request.Replacements)
+            {
+                var regex = CommonRegex.UsingNamespaceRegex(item.OriginalNamespace);
+                var matches = regex.Matches(text);
+
+                if (matches.Count < 1) continue;
+
+                anyReplaced = true;
+                text = regex.Replace(text, $"using {item.NewNamespace};");
+            }
+            return new MethodResponse<string>()
+            {
+                Data = text,
+                Sucess = anyReplaced
+            };
+        }
+
     }
 }

@@ -88,7 +88,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Loaders\AlignNamespacesLoader.cs" />
     <Compile Include="Loaders\FileLoader.cs" />
     <Compile Include="Loaders\NamespaceReplacementLoader.cs" />
     <Compile Include="Mappers\NamespaceReplacementMapper.cs" />

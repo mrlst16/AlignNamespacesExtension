@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="AlignNamespacesInProjectCommand.cs" />
     <Compile Include="AlignNamespacesInFolderCommand.cs" />
+    <Compile Include="AlignNamespacesInSolutuionCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AlignNamespacesExtensionPackage.cs" />
     <Compile Include="Services\AlignNamespacesCommandService.cs" />
@@ -117,6 +118,7 @@
   <ItemGroup>
     <Content Include="Resources\AlignNamespacesCommand.png" />
     <Content Include="Resources\AlignNamespacesInFolderCommand.png" />
+    <Content Include="Resources\AlignNamespacesInSolutuionCommand.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="IOC\" />

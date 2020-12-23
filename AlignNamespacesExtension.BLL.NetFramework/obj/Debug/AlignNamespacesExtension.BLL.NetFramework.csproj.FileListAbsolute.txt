@@ -9,6 +9,9 @@ C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BL
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.Build.dll
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\System.Buffers.dll
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\System.Collections.Immutable.dll
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\System.Memory.dll
@@ -29,6 +32,9 @@ C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BL
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.Build.xml
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.Build.Framework.pdb
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.Build.Framework.xml
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\System.Buffers.xml
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\System.Collections.Immutable.xml
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\System.Memory.xml
@@ -44,9 +50,3 @@ C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BL
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\obj\Debug\AlignNamespacesExtension.BLL.NetFramework.csproj.CopyComplete
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\obj\Debug\AlignNamespacesExtension.BLL.NetFramework.dll
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\obj\Debug\AlignNamespacesExtension.BLL.NetFramework.pdb
-C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
-C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
-C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml

@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.Shell;
+﻿using AlignNamespacesExtension.Interfaces.Services;
+using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
 using System;
 using System.ComponentModel.Design;
@@ -6,6 +7,7 @@ using System.Globalization;
 using System.Threading;
 using System.Threading.Tasks;
 using Task = System.Threading.Tasks.Task;
+using Unity;
 
 namespace AlignNamespacesExtension
 {
@@ -14,6 +16,7 @@ namespace AlignNamespacesExtension
     /// </summary>
     internal sealed class AlignNamespacesInSolutuionCommand
     {
+        private readonly IAlignNamespacesCommandService _service;
         /// <summary>
         /// Command ID.
         /// </summary>
@@ -35,8 +38,14 @@ namespace AlignNamespacesExtension
         /// </summary>
         /// <param name="package">Owner package, not null.</param>
         /// <param name="commandService">Command service to add command to, not null.</param>
-        private AlignNamespacesInSolutuionCommand(AsyncPackage package, OleMenuCommandService commandService)
+        private AlignNamespacesInSolutuionCommand(
+            AsyncPackage package,
+            OleMenuCommandService commandService,
+            IAlignNamespacesCommandService service
+            )
         {
+            _service = service;
+
             this.package = package ?? throw new ArgumentNullException(nameof(package));
             commandService = commandService ?? throw new ArgumentNullException(nameof(commandService));
 
@@ -76,7 +85,9 @@ namespace AlignNamespacesExtension
             await ThreadHelper.JoinableTaskFactory.SwitchToMainThreadAsync(package.DisposalToken);
 
             OleMenuCommandService commandService = await package.GetServiceAsync(typeof(IMenuCommandService)) as OleMenuCommandService;
-            Instance = new AlignNamespacesInSolutuionCommand(package, commandService);
+            var service = AlignNamespacesExtensionPackage.UnityContainer.Resolve<IAlignNamespacesCommandService>();
+
+            Instance = new AlignNamespacesInSolutuionCommand(package, commandService, service);
         }
 
         /// <summary>
@@ -88,18 +99,8 @@ namespace AlignNamespacesExtension
         /// <param name="e">Event args.</param>
         private void Execute(object sender, EventArgs e)
         {
-            ThreadHelper.ThrowIfNotOnUIThread();
-            string message = string.Format(CultureInfo.CurrentCulture, "Inside {0}.MenuItemCallback()", this.GetType().FullName);
-            string title = "AlignNamespacesInSolutuionCommand";
-
-            // Show a message box to prove we were here
-            VsShellUtilities.ShowMessageBox(
-                this.package,
-                message,
-                title,
-                OLEMSGICON.OLEMSGICON_INFO,
-                OLEMSGBUTTON.OLEMSGBUTTON_OK,
-                OLEMSGDEFBUTTON.OLEMSGDEFBUTTON_FIRST);
+            var task = _service.Execute(sender, e);
+            task.Wait();
         }
     }
 }

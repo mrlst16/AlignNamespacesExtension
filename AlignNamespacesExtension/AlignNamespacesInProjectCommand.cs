@@ -94,22 +94,13 @@ namespace AlignNamespacesExtension
         /// <param name="package">Owner package, not null.</param>
         public static async Task InitializeAsync(AsyncPackage package)
         {
-            try
-            {
-                // Switch to the main thread - the call to AddCommand in AlignNamespacesCommand's constructor requires
-                // the UI thread.
-                await ThreadHelper.JoinableTaskFactory.SwitchToMainThreadAsync(package.DisposalToken);
-                OleMenuCommandService commandService = await package.GetServiceAsync(typeof(IMenuCommandService)) as OleMenuCommandService;
+            // Switch to the main thread - the call to AddCommand in AlignNamespacesCommand's constructor requires
+            // the UI thread.
+            await ThreadHelper.JoinableTaskFactory.SwitchToMainThreadAsync(package.DisposalToken);
+            OleMenuCommandService commandService = await package.GetServiceAsync(typeof(IMenuCommandService)) as OleMenuCommandService;
 
-                var service = AlignNamespacesExtensionPackage.UnityContainer.Resolve<IAlignNamespacesCommandService>();
-                Instance = new AlignNamespacesInProjectCommand(package, commandService, service);
-            }
-            catch (Exception e)
-            {
-                System.Diagnostics.Debug.WriteLine(e);
-                throw;
-            }
-
+            var service = AlignNamespacesExtensionPackage.UnityContainer.Resolve<IAlignNamespacesCommandService>();
+            Instance = new AlignNamespacesInProjectCommand(package, commandService, service);
         }
     }
 }

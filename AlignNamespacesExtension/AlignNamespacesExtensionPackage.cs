@@ -56,18 +56,26 @@ namespace AlignNamespacesExtension
         /// <returns>A task representing the async work of package initialization, or an already completed task if there is none. Do not return null from this method.</returns>
         protected override async Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
         {
-            UnityContainer.RegisterType<IMapper<Match, string, string, NamespaceReplacement>, NamespaceReplacementMapper>();
-            UnityContainer.RegisterType<INamespaceReplacementLoader, NamespaceReplacementLoader>();
-            UnityContainer.RegisterType<IFileLoader, FileLoader>();
-            UnityContainer.RegisterType<IAlignNamespacesService, AlignNamespacesService>();
-            UnityContainer.RegisterType<IAlignNamespacesCommandService, AlignNamespacesCommandService>();
-            
-            // When initialized asynchronously, the current thread may be a background thread at this point.
-            // Do any initialization that requires the UI thread after switching to the UI thread.
-            await this.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
-            await AlignNamespacesInProjectCommand.InitializeAsync(this);
-            await AlignNamespacesInFolderCommand.InitializeAsync(this);
-            await AlignNamespacesInSolutuionCommand.InitializeAsync(this);
+            try
+            {
+                UnityContainer.RegisterType<IMapper<Match, string, string, NamespaceReplacement>, NamespaceReplacementMapper>();
+                UnityContainer.RegisterType<INamespaceReplacementLoader, NamespaceReplacementLoader>();
+                UnityContainer.RegisterType<IFileLoader, FileLoader>();
+                UnityContainer.RegisterType<IAlignNamespacesService, AlignNamespacesService>();
+                UnityContainer.RegisterType<IAlignNamespacesCommandService, AlignNamespacesCommandService>();
+
+                // When initialized asynchronously, the current thread may be a background thread at this point.
+                // Do any initialization that requires the UI thread after switching to the UI thread.
+                await this.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
+                await AlignNamespacesInProjectCommand.InitializeAsync(this);
+                await AlignNamespacesInFolderCommand.InitializeAsync(this);
+                await AlignNamespacesInSolutuionCommand.InitializeAsync(this);
+            }
+            catch (Exception e)
+            {
+                System.Diagnostics.Debug.WriteLine(e);
+                throw;
+            }
         }
 
         #endregion

@@ -61,7 +61,7 @@ namespace AlignNamespacesExtension.BLL.Services
 
         private async Task ReplaceUsingsInFolder(string folder, List<NamespaceReplacement> namespaceReplacements)
         {
-            var files = await _fileLoader.GetFiles(folder);
+            var files = (await _fileLoader.GetFiles(folder));
             var directories = await _fileLoader.GetDirectories(folder);
 
             for (int i = 0; i < files.Length; i++)

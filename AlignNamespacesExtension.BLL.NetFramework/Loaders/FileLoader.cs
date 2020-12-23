@@ -11,10 +11,12 @@ namespace AlignNamespacesExtension.BLL.NetFramework.Loaders
     public class FileLoader : IFileLoader
     {
         public async Task<string[]> GetDirectories(string diectory)
-            => Directory.GetDirectories(diectory);
+            => Directory.GetDirectories(diectory)
+                .Where(x=> Directory.GetFiles(x, "*.cs", SearchOption.AllDirectories).Length > 0)
+                .ToArray();
 
         public async Task<string[]> GetFiles(string diectory)
-            => Directory.GetFiles(diectory);
+            => Directory.GetFiles(diectory, "*.cs");
 
         public async Task<string> Read(string file)
             => File.ReadAllText(file);

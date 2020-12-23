@@ -1,3 +1,4 @@
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\AlignNamespacesExtension.BLL.NetFramework.dll.config
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\AlignNamespacesExtension.BLL.NetFramework.dll
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\AlignNamespacesExtension.BLL.NetFramework.pdb
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\AlignNamespacesExtension.Interfaces.dll
@@ -5,17 +6,6 @@ C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BL
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\CommonCore.Interfaces.dll
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\CommonCore.Models.dll
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\CommonCore.Standard.dll
-C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\CommonCore.Interfaces.pdb
-C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\CommonCore.Models.pdb
-C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\CommonCore.Standard.pdb
-C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\AlignNamespacesExtension.Interfaces.pdb
-C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\AlignNamespacesExtension.Models.pdb
-C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\obj\Debug\AlignNamespacesExtension.BLL.NetFramework.csprojAssemblyReference.cache
-C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\obj\Debug\AlignNamespacesExtension.BLL.NetFramework.csproj.CoreCompileInputs.cache
-C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\obj\Debug\AlignNamespacesExtension.BLL.NetFramework.csproj.CopyComplete
-C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\obj\Debug\AlignNamespacesExtension.BLL.NetFramework.dll
-C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\obj\Debug\AlignNamespacesExtension.BLL.NetFramework.pdb
-C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\AlignNamespacesExtension.BLL.NetFramework.dll.config
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.Build.dll
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.Build.Framework.dll
@@ -29,6 +19,11 @@ C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BL
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\System.Threading.Tasks.Dataflow.dll
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\System.ValueTuple.dll
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\CommonCore.Interfaces.pdb
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\CommonCore.Models.pdb
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\CommonCore.Standard.pdb
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\AlignNamespacesExtension.Interfaces.pdb
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\AlignNamespacesExtension.Models.pdb
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.Build.pdb
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.Build.xml
@@ -44,3 +39,8 @@ C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BL
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\System.Threading.Tasks.Dataflow.xml
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\System.ValueTuple.xml
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\obj\Debug\AlignNamespacesExtension.BLL.NetFramework.csprojAssemblyReference.cache
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\obj\Debug\AlignNamespacesExtension.BLL.NetFramework.csproj.CoreCompileInputs.cache
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\obj\Debug\AlignNamespacesExtension.BLL.NetFramework.csproj.CopyComplete
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\obj\Debug\AlignNamespacesExtension.BLL.NetFramework.dll
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\obj\Debug\AlignNamespacesExtension.BLL.NetFramework.pdb

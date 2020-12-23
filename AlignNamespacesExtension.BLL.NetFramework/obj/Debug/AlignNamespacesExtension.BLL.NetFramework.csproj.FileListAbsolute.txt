@@ -44,3 +44,9 @@ C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BL
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\obj\Debug\AlignNamespacesExtension.BLL.NetFramework.csproj.CopyComplete
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\obj\Debug\AlignNamespacesExtension.BLL.NetFramework.dll
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\obj\Debug\AlignNamespacesExtension.BLL.NetFramework.pdb
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension.BLL.NetFramework\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml

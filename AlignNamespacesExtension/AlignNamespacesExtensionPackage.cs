@@ -1,7 +1,18 @@
-﻿using Microsoft.VisualStudio.Shell;
+﻿using AlignNamespacesExtension.BLL.Loaders;
+using AlignNamespacesExtension.BLL.Mappers;
+using AlignNamespacesExtension.BLL.NetFramework.Loaders;
+using AlignNamespacesExtension.BLL.Services;
+using AlignNamespacesExtension.Interfaces.Loaders;
+using AlignNamespacesExtension.Interfaces.Services;
+using AlignNamespacesExtension.Models.DTO.NamespaceAlignment;
+using AlignNamespacesExtension.Services;
+using CommonCore.Interfaces.Utilities;
+using Microsoft.VisualStudio.Shell;
 using System;
 using System.Runtime.InteropServices;
+using System.Text.RegularExpressions;
 using System.Threading;
+using Unity;
 using Task = System.Threading.Tasks.Task;
 
 namespace AlignNamespacesExtension
@@ -28,6 +39,7 @@ namespace AlignNamespacesExtension
     [ProvideMenuResource("Menus.ctmenu", 1)]
     public sealed class AlignNamespacesExtensionPackage : AsyncPackage
     {
+        public static IUnityContainer UnityContainer = new UnityContainer();
         /// <summary>
         /// AlignNamespacesExtensionPackage GUID string.
         /// </summary>
@@ -44,10 +56,17 @@ namespace AlignNamespacesExtension
         /// <returns>A task representing the async work of package initialization, or an already completed task if there is none. Do not return null from this method.</returns>
         protected override async Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
         {
+            UnityContainer.RegisterType<IMapper<Match, string, string, NamespaceReplacement>, NamespaceReplacementMapper>();
+            UnityContainer.RegisterType<INamespaceReplacementLoader, NamespaceReplacementLoader>();
+            UnityContainer.RegisterType<IFileLoader, FileLoader>();
+            UnityContainer.RegisterType<IAlignNamespacesService, AlignNamespacesService>();
+            UnityContainer.RegisterType<IAlignNamespacesCommandService, AlignNamespacesCommandService>();
+
             // When initialized asynchronously, the current thread may be a background thread at this point.
             // Do any initialization that requires the UI thread after switching to the UI thread.
             await this.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
-            await AlignNamespacesCommand.InitializeAsync(this);
+            await AlignNamespacesInProjectCommand.InitializeAsync(this);
+            await AlignNamespacesInFolderCommand.InitializeAsync(this);
         }
 
         #endregion

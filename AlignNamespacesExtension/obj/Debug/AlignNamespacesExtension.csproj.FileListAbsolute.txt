@@ -37,7 +37,6 @@ C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\ob
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\obj\Debug\VSCT.write.1.tlog
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\obj\Debug\resources.json
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\obj\Debug\ctoFiles.json
-C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\obj\Debug\_EmptyResource.resources.original
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\obj\Debug\mergeCto.cache
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\obj\Debug\AlignNamespacesExtension.csproj.CoreCompileInputs.cache
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\obj\Debug\AlignNamespacesExtension.csproj.CopyComplete
@@ -48,3 +47,9 @@ C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\ob
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\obj\Debug\extension.vsixmanifest
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\obj\Debug\files.json
 C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\obj\Debug\createTemplateManifests.cache
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\bin\Debug\Unity.Abstractions.dll
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\bin\Debug\Unity.Abstractions.pdb
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\bin\Debug\Unity.Container.dll
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\bin\Debug\Unity.Container.pdb
+C:\Users\mattl\source\repos\AlignNamespacesExtension\AlignNamespacesExtension\obj\Debug\_EmptyResource.resources.original
